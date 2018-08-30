@@ -1,0 +1,180 @@
+/*
+Template Name: Adminto Dashboard
+Author: CoderThemes
+Email: coderthemes@gmail.com
+File: Responsive
+*/
+.content-page .form-group.col-6{
+	width: 50%;
+	float: left;
+	padding: 0 15px;
+}
+.form-group.col-6 span{
+   color: #ef0e0e;
+	
+}
+#insert_school .form-group.cert_dis{
+   padding-left: 14px;
+}
+.form-group.col-12{
+	display: inline-block;
+	width: 100%;
+	padding-left: 14px;
+}
+.fixed-left .form-group .form-control,
+.form-group .radio_button {
+	max-width: 250px;
+	float: left;
+	margin: 0 10px;
+	width:100%;
+}
+.form-group input,
+.form-group select{
+	font-size:14px;
+	color:#999999;
+}
+.form-group .btn {
+    border-radius: 2px;
+    padding: 6px 14px;
+    min-width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: inline-block;
+    min-width: 200px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    float: left;
+}
+.parsley-errors-list > li {
+    float: right;
+    margin-top: 5px;
+}
+.parsley-errors-list.filled {
+    display: block;
+    max-width: 326px;
+}
+.fixed-left .month_year_overall{
+	width: 100%;
+	display: inline-block;
+	padding: 0 10px;
+}
+.fixed-left .month_year_overall .form-group {
+    float: none;
+    clear: both;
+	padding-top: 15px;
+}
+.fixed-left .month_year_overall .form-group:first-child{
+	padding-top:0;
+}
+.fixed-left .working_days_div .form-control{ 
+	width: 300px;
+	margin:0 5px!important;
+}
+#attendance_insert .attendance_table{
+	width: 100%;
+}
+.fixed-left .form-group .working_days {
+    padding-left: 0;
+}
+.search_form form input{
+	width: 100px;
+	margin: 0 5px;
+	padding: 0 8px;
+	height: 38px;
+}
+.search_form .form-control {
+	display: unset !important;
+}
+.search_form select.form-control {
+	width: 200px !important;
+}
+.search_form input[type="submit"]{
+	font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+}
+.table-responsive tbody tr,
+.form-control[readonly]{
+	background-color:#ffffff;
+}
+.table-responsive tbody tr:nth-child(2n+2) {
+	background-color: #e2ebf2;
+}
+.table-responsive.single tbody tr{
+	background-color:inherit;
+}
+.table-responsive.single tbody tr td{
+	background-color:#ffffff;
+	border-bottom: 15px solid #ebeff2;
+	border-right: 25px solid #ebeff2;
+}
+.notification-box ul li i.user_icon{
+	background:url(../images/user_list.png);
+	height: 23px;
+	width: 28px !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin-top: 22px;
+	cursor:pointer;	
+	margin-left: 5px;
+}
+.attendance_table td, 
+.attendance_table th {
+    padding: 10px;
+}
+#salary_insert {
+	padding:0 10px;
+}
+#salary_insert .form-group {
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+#salary_insert .form-group.m-b-0{
+	width:100%;
+}
+
+.fixed-left .attendance_table .parsley-errors-list.filled{
+    display: block;
+	max-width:inherit;
+}
+.fixed-left .attendance_table .parsley-errors-list > li {
+    float: left;
+    text-align: left;
+}
+.fixed-left .month_year_div .parsley-errors-list.filled {
+	max-width:inherit !important;
+}
+.fixed-left .month_year_div .parsley-errors-list.filled li{
+	float:left;
+}
+.year_and_month {
+    float: left;
+    margin: 0 5px;
+}
+.year_and_month .form-control{
+	margin:0 !important;
+	min-width: 250px;
+}
+#update_salary .form-group {
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+#update_salary .form-group.m-b-0{
+	width:100%;
+}
+#update_salary .form-group:nth-child(2n+1){
+	clear:both;
+}
+.content-page .content {
+    padding: 0px 13px;
+    margin-top: 73px;
+}
+.table-responsive thead tr th:first-child{
+    padding: 8px 0;
+}
+.zmdi {
+	color:#4d626e;
+}
